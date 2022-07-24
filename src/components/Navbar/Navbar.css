@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hamburger_menu{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    outline: none;
+}
+
+.hamburger_menu div {
+    width: 35px;
+    height: 2px;
+    background-color: #505050;
+    margin: 2px 0;
+}
+
+.hamburger_menu div:nth-child(3){
+    width: 17.5px;
+}
