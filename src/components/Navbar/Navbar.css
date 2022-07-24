@@ -2,7 +2,11 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
 }
+
 
 .hamburger_menu{
     display: flex;
@@ -20,4 +24,24 @@ nav{
 
 .hamburger_menu div:nth-child(3){
     width: 17.5px;
+}
+
+
+/* Tablet view */
+@media screen and (max-width: 1150px) {
+
+
+}
+
+
+
+/* mobile view */
+@media screen and (max-width: 650px) {
+  .logo{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: left;
+  }
 }

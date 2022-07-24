@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
 
         <nav>
-            <div className="app__navbar-logo">
+            <div className="logo">
                 CHINONSO
             </div>
 
