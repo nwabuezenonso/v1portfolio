@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-html{
-  height: 100%;
-}
-
 body {
   margin: 0;
-  min-height: 100%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -21,6 +16,7 @@ body {
 
 .background{
   height: 100vh;
+  overflow-y: hidden;
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(0.1px);
 }
