@@ -9,9 +9,9 @@
 /* Tablet view */
 @media screen and (max-width: 1150px) {
   
-    .footer_links{
+    /* .footer_links{
         padding: 2rem 0 2rem 2rem
-    }
+    } */
     .footer_links svg{
         margin: 0 10px 0 10px;
     }
@@ -25,7 +25,7 @@
 @media screen and (max-width: 650px) {
 
     .footer_links{
-        padding: 2rem 0 2rem 2rem
+        padding: 0 2rem 0 2rem
     }
     .footer_links svg{
         margin: 0 10px 0 10px;
