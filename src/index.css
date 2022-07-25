@@ -6,7 +6,6 @@ body {
 }
 
 .App{
-  height: 100vh;
   background-image: url('../src/assets/background_img.jpg');
   background-repeat: no-repeat;
   background-position: center;
