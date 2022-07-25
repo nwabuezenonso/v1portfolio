@@ -62,14 +62,15 @@
         line-height: 18px;
     }
 
-    .intro_text svg {
+    #resume {
         margin-right: 5px;
     }
 
-    .intro_text div{
+    .intro_text #resume div{
         border: 1px solid #000000;
         width: 65px;
         height: 0px;
+        margin-bottom: 16px;
     }
 
     .intro_text button{
