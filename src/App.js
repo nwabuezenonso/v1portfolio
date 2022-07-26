@@ -1,7 +1,7 @@
 import React from "react";
-import { Routes, Route} from 'react-router-dom';
+// import { Routes, Route} from 'react-router-dom';
 import { Navbar,Footer } from './components';
-import { Home } from './containers'
+// import { Home } from './containers'
 
 function App() {
   return (
