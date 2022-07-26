@@ -108,6 +108,7 @@ nav{
     height: 100vh;
     width: 100vw;
     background-color: #fff;
+    transition: 0.4s;;
   }
 
   .navbar_overlay ul{
@@ -142,11 +143,6 @@ nav{
     color: #000000;
     text-decoration: line-through;
   }
-
-  /* .navbar_overlay ul li:not(.act){
-  
-    color: #000000;
-  } */
 
   .navbar_overlay ul li:last-child svg{
     margin: 10px;
