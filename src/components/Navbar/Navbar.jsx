@@ -25,7 +25,7 @@ const Navbar = () => {
             { toggleMenu && (
                 <div className='navbar_overlay'>
                     <ul>
-                        <li>Home</li>
+                        <li className='active'>Home</li>
                         <li>About</li>
                         <li>Works</li>
                         <li>Resume</li>

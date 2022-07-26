@@ -38,6 +38,7 @@ nav{
   display: none
 }
 
+/* hamburger menu styling */
 .hamburger_menu div:nth-child(3){
   width: 17.5px;
 }
@@ -47,6 +48,8 @@ nav{
   font-size: 10px;
   color: #747374;
 }
+
+/* Active class */
 
 
 /* Tablet view */
@@ -112,7 +115,7 @@ nav{
     top: 15vh;
   }
   
-  .navbar_overlay ul li {
+  .navbar_overlay ul li:not(.active){
     font-style: normal;
     font-weight: 500;
     font-size: 38px;
@@ -126,6 +129,24 @@ nav{
   
     color: #000000;
   }
+
+  .active{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 38px;
+    margin: 2rem 0 1rem 0;
+    line-height: 60px;
+    list-style-type: none;
+    letter-spacing: 0.05em;
+  
+    color: #000000;
+    text-decoration: line-through;
+  }
+
+  /* .navbar_overlay ul li:not(.act){
+  
+    color: #000000;
+  } */
 
   .navbar_overlay ul li:last-child svg{
     margin: 10px;
