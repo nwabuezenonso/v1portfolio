@@ -13,6 +13,11 @@ const Navbar = () => {
                 <div></div>
                 <div></div>
                 <div></div>
+                <p>menu</p>
+            </div>
+
+            <div className='navbar_overlay'>
+
             </div>
         </nav>
     )

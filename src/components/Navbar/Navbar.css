@@ -19,7 +19,15 @@ nav{
 }
 
 .hamburger_menu div:nth-child(3){
-    width: 17.5px;
+  width: 17.5px;
+}
+
+.navbar_overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 
