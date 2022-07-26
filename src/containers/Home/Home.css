@@ -13,7 +13,7 @@
 /* mobile view */
 @media screen and (max-width: 650px) {
     .intro{
-        padding: 30% 2rem 40% 2rem;
+        padding-left: 2rem;
     }
 
     .intro_text p{
