@@ -1,7 +1,7 @@
 .footer{
     position:absolute;
     left:0;
-    bottom: 50px;
+    bottom: 100px;
     right:0;
 }
 
@@ -20,12 +20,11 @@
 }
   
   
-  
 /* mobile view */
 @media screen and (max-width: 650px) {
 
     .footer_links{
-        padding: 0 2rem 0 2rem
+        padding: 2rem 2rem 2rem 2rem
     }
     .footer_links svg{
         margin: 0 10px 0 10px;
