@@ -14,7 +14,7 @@ body {
 }
 
 .background{
-  height: 100vh;
+  /* height: 100vh; */
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(0.1px);
 }
@@ -27,5 +27,5 @@ body {
 
 /* mobile view */
 @media screen and (max-width: 650px) {
-  
+
 }
