@@ -28,6 +28,6 @@ body {
 /* mobile view */
 @media screen and (max-width: 650px) {
   .background{
-    height: 100vh;
+    height: 90vh;
   }
 }
