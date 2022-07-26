@@ -27,7 +27,5 @@ body {
 
 /* mobile view */
 @media screen and (max-width: 650px) {
-  .background{
-    height: 90vh;
-  }
+  
 }
