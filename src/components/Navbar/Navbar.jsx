@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
-    const [ toggleMenu, setToggleMenu ] = useState(false)
+    const [ toggleMenu, setToggleMenu ] = useState(false);
+
+    const handleToggleMenu = (e) => {
+        setToggleMenu(!toggleMenu)
+    }
 
     return (
 
@@ -11,7 +15,7 @@ const Navbar = () => {
                 CHINONSO
             </div>
 
-            <div className="hamburger_menu" onClick={() => setToggleMenu(true)}>
+            <div className={`hamburger_menu ${toggleMenu ? "change" : ""}`} onClick={handleToggleMenu}>
                 <div></div>
                 <div></div>
                 <div></div>

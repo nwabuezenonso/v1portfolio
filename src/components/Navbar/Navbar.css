@@ -17,6 +17,25 @@ nav{
   height: 2px;
   background-color: #505050;
   margin: 2px 0;
+  transition: 0.4s;
+}
+/* hamburger menu changes on click*/
+.change.hamburger_menu div:nth-child(1){
+  -webkit-transform: rotate(45deg) translate(-6px, 10px);
+  transform: rotate(45deg) translate(-6px, 10px);
+}
+
+.change.hamburger_menu div:nth-child(2){
+  -webkit-transform: rotate(-45deg) translate(-8px, -8px);
+  transform: rotate(-45deg) translate(-8px, -8px);
+}
+
+.change.hamburger_menu div:nth-child(3){
+  display: none;
+}
+
+.change.hamburger_menu span{
+  display: none
 }
 
 .hamburger_menu div:nth-child(3){
