@@ -5,6 +5,7 @@ nav{
 }
 
 .hamburger_menu{
+  z-index: 1000;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
@@ -22,12 +23,10 @@ nav{
   width: 17.5px;
 }
 
-.navbar_overlay{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
+.hamburger_menu span{
+  margin: 0;
+  font-size: 10px;
+  color: #747374;
 }
 
 
@@ -77,5 +76,39 @@ nav{
   nav{
     width: 80%;
     padding: 2rem 2rem 2rem 2rem
+  }
+
+
+  .navbar_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+  }
+
+  .navbar_overlay ul{
+    position: fixed;
+    top: 15vh;
+  }
+  
+  .navbar_overlay ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    margin: 2rem 0 1rem 0;
+    line-height: 60px;
+    list-style-type: none;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    letter-spacing: 0.05em;
+  
+    color: #000000;
+  }
+
+  .navbar_overlay ul li:last-child svg{
+    margin: 10px;
   }
 }
