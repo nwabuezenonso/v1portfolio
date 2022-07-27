@@ -1,5 +1,6 @@
 import React from 'react';
 import "./About.css";
+import ""
 
 const About = () => {
   return (
@@ -20,7 +21,10 @@ const About = () => {
             <h1>TECHNOLOGIES<span>⚒️</span></h1>
           </div>
           <div className='Technology_stack'>
-              
+              <div className='firstStack'>
+                <img src='./'></img>
+              </div>
+              <div className='secondStack'></div>
           </div>
         </div>
       </div>
