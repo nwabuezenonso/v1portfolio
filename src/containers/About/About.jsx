@@ -1,8 +1,10 @@
 import React from 'react';
 import "./About.css";
-import ""
+import { css, figma, git, graphql, html, js, node, react, redux, sass,typescript } from '../../assets'
 
 const About = () => {
+
+  const techStack  = [ css, figma, git, graphql, html, js, node, react, redux, sass,typescript ]
   return (
     <div>
       <div className='About'>
@@ -18,13 +20,19 @@ const About = () => {
 
         <div className='Technologies'>
           <div className='Technology_title'>
-            <h1>TECHNOLOGIES<span>⚒️</span></h1>
+            <h1>TECHNOLOGIES<span role="img" aria-label="technologies">⚒️</span></h1>
           </div>
           <div className='Technology_stack'>
-              <div className='firstStack'>
-                <img src='./'></img>
-              </div>
-              <div className='secondStack'></div>
+            <div className='Stack'>
+              { techStack.map((item, index) => (
+                <>
+                <div className='stack_background'>
+                  <img src={item} alt={index} width="25px" />
+                  <span>some text</span>
+                </div>
+                </>
+              ))}
+            </div>
           </div>
         </div>
       </div>

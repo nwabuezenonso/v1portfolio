@@ -1,5 +1,6 @@
 .About{
     padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 0;
 }
 
@@ -37,11 +38,15 @@
         line-height: 24px;
         color: #000000;
         text-align: left;
-        width: 350px;
+        width: 340px;
     }
     
     .About h1{
         margin: 0;
+    }
+
+    .Technology_title{
+        margin: 1rem 0 1rem 0;
     }
 
     .Technology_title h1{
@@ -51,5 +56,33 @@
         -webkit-text-stroke-color: #000;
         font-size: 23px;
         line-height: 34px;
+    }
+
+    .stack_background{
+        background-color: #ffff;
+        border: 0.5px solid black;
+        border-radius: 3px;
+        margin: 5px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .Stack{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Stack img{
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        filter: grayscale(100%);
+    }
+
+    .Stack img:hover{
+        filter: grayscale(0);
+        scale: 2.5px;
     }
 }

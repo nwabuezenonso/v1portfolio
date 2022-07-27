@@ -65,12 +65,13 @@
         margin-bottom: 16px;
     }
 
-    .intro_text button{
+    .portfolioButton{
         margin-top: 20px;
         box-sizing: border-box;
         width: 139px;
         height: 45px;
         border-radius: 3px;
+        font-size: 16px;
 
         background: #FFFFFF;
         border: 1px solid #848484;

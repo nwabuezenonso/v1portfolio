@@ -10,3 +10,17 @@ import redux from './redux.png';
 import sass from './sass.png';
 import typescript from './typescript.png';
 
+export {
+    css,
+    figma,
+    git,
+    graphql,
+    html,
+    js,
+    node,
+    react,
+    redux,
+    sass,
+    typescript
+}
+
