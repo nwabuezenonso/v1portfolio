@@ -22,15 +22,16 @@ nav{
 /* hamburger menu changes on click*/
 .change.hamburger_menu div:nth-child(1){
   -webkit-transform: rotate(45deg) translate(-6px, 11px);
-  transform: rotate(45deg) translate(-6px, 11px);
-}
-
-.change.hamburger_menu div:nth-child(2){
-  -webkit-transform: rotate(-45deg) translate(-8px, -8px);
-  transform: rotate(-45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-2px, 11px);
 }
 
 .change.hamburger_menu div:nth-child(3){
+  -webkit-transform: rotate(-45deg) translate(-8px, -8px);
+  transform: rotate(-45deg) translate(-8px, -6px);
+  width: 35px;
+}
+
+.change.hamburger_menu div:nth-child(2){
   display: none;
 }
 
