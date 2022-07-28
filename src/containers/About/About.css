@@ -15,6 +15,7 @@
 
     .AboutTitle p{
         font-style: normal;
+        margin-top: 0;
         font-weight: 500;
         font-size: 17px;
         line-height: 26px;  
