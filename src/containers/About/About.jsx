@@ -14,7 +14,7 @@ const About = () => {
         <p className='AboutBody'>
           I'm Chinonso Nwabueze, A software engineer currently based in Nigeria. Who loves turning ideas from thought to reality. <br/>I specialize in creating functional user interfaces and making the user experience as comfortable as possible.<br/><br/>
           I started my career as a freelance developer where I built project for small business and startups and around that time i started understanding more about frontend developement with React. <br/> Right now i am currently building web apps with Nodejs as a Backend and also exploring the Web3 space.<br/><br/>
-          When I'm not working I'm either watching movie or Anime 🎬, Playing games with my friends on🎮, Chatting 💬, doing some art work 🎨 or working out at the gym 🏋🏽‍♂️.
+          When I'm not working I'm either watching movie or Anime 🎬, Playing games with my friends 🎮, Chatting 💬, Playing basketball 🏀
         </p>
 
         <div className='Technologies'>
@@ -34,6 +34,13 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        <div className='experience'>
+          <h1>Experiences</h1>
+          <p>I have developed problem-solving projects in collaboration with developers and clients, ranging from individuals to startups and non-profit organizations. See my <a href='/'>resume</a>  or visit my <a href='/'>LinkedIn profile</a>  for additional information.</p>
+        </div>
+
+        <button className='portfolioButton'> View Previous Works</button>
       </div>
         
 

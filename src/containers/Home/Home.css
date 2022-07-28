@@ -14,6 +14,10 @@
         padding: 2rem 2rem 0 2rem;
     }
 
+    #resume{
+        margin-bottom: 10px;
+    }
+
     .intro_text p{
         font-weight: 400;
     }
@@ -66,10 +70,8 @@
     }
 
     .portfolioButton{
-        margin-top: 20px;
+        padding: 12px 20px 12px 20px;
         box-sizing: border-box;
-        width: 139px;
-        height: 45px;
         border-radius: 3px;
         font-size: 16px;
 
