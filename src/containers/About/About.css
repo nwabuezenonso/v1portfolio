@@ -58,6 +58,14 @@
         line-height: 34px;
     }
 
+    .Technology_title p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #000000;
+    }
+
     .stack_background{
         background-color: #ffff;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -67,6 +75,12 @@
         display: flex;
         width: 40%;
     }
+
+    .stack_background img{
+        filter: grayscale(100%);
+        margin: 3px;
+        z-index: 0;
+    }
     
 
     .Stack{
@@ -75,7 +89,7 @@
         flex-wrap: wrap;
     }
 
-    .Stack img{
+    /* .Stack img{
         margin-left: 2px;
         margin-right: 2px;
         margin-top: 2px;
@@ -86,5 +100,5 @@
     .Stack img:hover{
         filter: grayscale(0);
         scale: 2.5px;
-    }
+    } */
 }

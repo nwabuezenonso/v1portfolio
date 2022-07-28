@@ -4,6 +4,9 @@ import { css, figma, git, graphql, html, js, node, react, redux, sass,typescript
 
 const About = () => {
 
+  const tech = [ {
+    
+  }]
   const techStack  = [ css, figma, git, graphql, html, js, node, react, redux, sass,typescript ]
   return (
     <div>
@@ -21,6 +24,7 @@ const About = () => {
         <div className='Technologies'>
           <div className='Technology_title'>
             <h1>TECHNOLOGIES<span role="img" aria-label="technologies">⚒️</span></h1>
+            <p>Here are some of the design software packages, programming languages and frameworks that I use frequently. I'm always looking forward to learn new things everyday!</p>
           </div>
           <div className='Technology_stack'>
             <div className='Stack'>
