@@ -79,4 +79,11 @@
         flex-basis: 25%;
         flex-grow: 1;
     }
+
+    .experience p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+    }
 }
