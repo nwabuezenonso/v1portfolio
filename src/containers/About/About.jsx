@@ -27,7 +27,7 @@ const About = () => {
               { techStack.map((item, index) => (
                 <>
                 <div className='stack_background'>
-                  <img src={item} alt={index} width="25px" />
+                  <img src={item} alt={index} width="20px" />
                   <span>some text</span>
                 </div>
                 </>

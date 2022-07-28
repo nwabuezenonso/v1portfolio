@@ -60,12 +60,14 @@
 
     .stack_background{
         background-color: #ffff;
-        border: 0.5px solid black;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         border-radius: 3px;
-        margin: 5px;
+        margin: 0.3rem;
         padding: 10px;
         display: flex;
+        width: 40%;
     }
+    
 
     .Stack{
         display: flex;
