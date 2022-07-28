@@ -1,6 +1,5 @@
 import React from 'react';
 import "./About.css";
-// import { css, figma, git, graphql, html, js, node, react, redux, sass,typescript } from '../../assets'
 
 const About = () => {
 
