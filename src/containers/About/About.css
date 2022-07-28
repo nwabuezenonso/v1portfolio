@@ -66,39 +66,17 @@
         color: #000000;
     }
 
-    .stack_background{
-        background-color: #ffff;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        border-radius: 3px;
-        margin: 0.3rem;
-        padding: 10px;
-        display: flex;
-        width: 40%;
-    }
-
-    .stack_background img{
-        filter: grayscale(100%);
-        margin: 3px;
-        z-index: 0;
-    }
-    
-
-    .Stack{
+    .Stack ul{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 0;
     }
 
-    /* .Stack img{
-        margin-left: 2px;
-        margin-right: 2px;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        filter: grayscale(100%);
+    .Stack ul li{
+        margin: 1rem;
+        list-style-type:  square;
+        flex-basis: 25%;
+        flex-grow: 1;
     }
-
-    .Stack img:hover{
-        filter: grayscale(0);
-        scale: 2.5px;
-    } */
 }

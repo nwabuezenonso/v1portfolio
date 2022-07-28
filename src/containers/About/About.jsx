@@ -1,13 +1,10 @@
 import React from 'react';
 import "./About.css";
-import { css, figma, git, graphql, html, js, node, react, redux, sass,typescript } from '../../assets'
+// import { css, figma, git, graphql, html, js, node, react, redux, sass,typescript } from '../../assets'
 
 const About = () => {
 
-  const tech = [ {
-    
-  }]
-  const techStack  = [ css, figma, git, graphql, html, js, node, react, redux, sass,typescript ]
+  const techStack  = [ "HTML","CSS & SCSS", "JavaScript" ,"Nodejs", "Express.Js","React","Redux","TypeScript","Next.Js", "GraphQL", "Gatsby.js", "Sanity Cms", "GraphCms", "Jest"]
   return (
     <div>
       <div className='About'>
@@ -28,14 +25,13 @@ const About = () => {
           </div>
           <div className='Technology_stack'>
             <div className='Stack'>
-              { techStack.map((item, index) => (
-                <>
-                <div className='stack_background'>
-                  <img src={item} alt={index} width="20px" />
-                  <span>some text</span>
-                </div>
-                </>
-              ))}
+              <ul>
+                { techStack.map((item, index) => (
+                  <>
+                    <li>{item}</li>
+                  </>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
