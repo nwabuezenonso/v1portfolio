@@ -134,6 +134,9 @@ nav{
   }
 
   .active{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
     font-style: normal;
     font-weight: lighter;
     font-size: 38px;
@@ -141,7 +144,6 @@ nav{
     line-height: 60px;
     list-style-type: none;
     letter-spacing: 0.05em;
-  
     color: #000000;
     text-decoration: line-through;
   }
