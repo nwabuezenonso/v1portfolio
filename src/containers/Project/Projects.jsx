@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css'
-import {  background_img2 } from '../../assets'
+import {  background_img2, figma } from '../../assets'
 
 const Projects = () => {
   return (
@@ -22,6 +22,33 @@ const Projects = () => {
               <li>Reactjs</li>
               <li>Reactjs</li>
             </ul>
+            <button>Live preview</button>
+          </div>
+          <div className='project1'>
+            <img src= { background_img2 } alt=""/>
+            <h1 className='project_title'>Voice powered expense tracker</h1>
+            <p className='project_body'>A simple voice activated budget calculator used to calculate income and expenses.</p>
+            <ul>
+              <li>Reactjs</li>
+              <li>JavaScript</li>
+              <li>Reactjs</li>
+              <li>Reactjs</li>
+              <li>Reactjs</li>
+            </ul>
+            <button>Live preview</button>
+          </div>
+          <div className='project1'>
+            <img src= { background_img2 } alt=""/>
+            <h1 className='project_title'>Voice powered expense tracker</h1>
+            <p className='project_body'>A simple voice activated budget calculator used to calculate income and expenses.</p>
+            <ul>
+              <li>Reactjs</li>
+              <li>JavaScript</li>
+              <li>Reactjs</li>
+              <li>Reactjs</li>
+              <li>Reactjs</li>
+            </ul>
+            <button>Live preview</button>
           </div>
         </div>
       </div>

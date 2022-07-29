@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
 
-  const techStack  = [ "HTML","CSS & SCSS", "JavaScript" ,"Nodejs", "Express.Js","React","Redux","TypeScript","Next.Js", "GraphQL", "Gatsby.js", "Sanity Cms", "GraphCms", "Jest"]
+  const techStack  = [ "Figma","HTML","CSS & SCSS", "JavaScript" ,"Nodejs", "Express.Js","React","Redux","TypeScript","Next.Js", "GraphQL", "Gatsby.js", "Sanity Cms", "GraphCms", "Jest"]
   return (
     <div>
       <div className='About'>
