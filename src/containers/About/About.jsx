@@ -40,7 +40,7 @@ const About = () => {
           <p>I have developed problem-solving projects in collaboration with developers and clients, ranging from individuals to startups and non-profit organizations. See my <a href='/'>resume</a>  or visit my <a href='/'>LinkedIn profile</a>  for additional information.</p>
         </div>
 
-        <button className='portfolioButton'> View Previous Works</button>
+        <button className='portfolioButton'> View previous projects</button>
       </div>
         
 

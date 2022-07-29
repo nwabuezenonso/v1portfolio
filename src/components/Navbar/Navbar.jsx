@@ -27,7 +27,7 @@ const Navbar = () => {
                     <ul>
                         <li className='active'>Home</li>
                         <li>About</li>
-                        <li>Works</li>
+                        <li>Projects</li>
                         <li>Resume</li>
                         <li>Contact</li>
                         <li>   
