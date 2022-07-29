@@ -9,8 +9,10 @@ import react from './react.png';
 import redux from './redux.png';
 import sass from './sass.png';
 import typescript from './typescript.png';
+import background_img2 from './background_img2.jpg'
 
 export {
+    background_img2,
     css,
     figma,
     git,
