@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css'
-import {  background_img2, figma } from '../../assets'
+import {  image} from '../../assets'
 
 const Projects = () => {
   return (
@@ -12,7 +12,7 @@ const Projects = () => {
         </div>
         <div className='project_card'>
           <div className='project1'>
-            <img src= { background_img2 } alt=""/>
+            <img src= { image } alt=""/>
             <h1 className='project_title'>Voice powered expense tracker</h1>
             <p className='project_body'>A simple voice activated budget calculator used to calculate income and expenses.</p>
             <ul>
@@ -25,7 +25,7 @@ const Projects = () => {
             <button>Live preview</button>
           </div>
           <div className='project1'>
-            <img src= { background_img2 } alt=""/>
+            <img src= { image } alt=""/>
             <h1 className='project_title'>Voice powered expense tracker</h1>
             <p className='project_body'>A simple voice activated budget calculator used to calculate income and expenses.</p>
             <ul>
@@ -38,7 +38,7 @@ const Projects = () => {
             <button>Live preview</button>
           </div>
           <div className='project1'>
-            <img src= { background_img2 } alt=""/>
+            <img src= { image } alt=""/>
             <h1 className='project_title'>Voice powered expense tracker</h1>
             <p className='project_body'>A simple voice activated budget calculator used to calculate income and expenses.</p>
             <ul>
