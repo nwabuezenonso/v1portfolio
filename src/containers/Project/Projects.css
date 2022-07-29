@@ -34,7 +34,7 @@
         height: 376px;
         border-radius: 20px;
         object-fit: cover;
-        filter: contrast(0.5);
+        filter: brightness(45%) grayscale(1);
     }
 
     .project_title{
