@@ -88,7 +88,6 @@
         margin-bottom: 0;
         font-weight: 500;
         font-size: 18px;
-        text-align: center;
         line-height: 48px;
         -webkit-text-fill-color: #fff;
         -webkit-text-stroke-width: 1px;
@@ -100,12 +99,7 @@
         font-weight: 400;
         font-size: 15px;
         line-height: 22px;
-        text-align: center;
         margin-top: 0;
         color: #000000;
-    }
-
-    .need_a_developer button{
-       margin: 5px 25% 0 30%;
     }
 }
