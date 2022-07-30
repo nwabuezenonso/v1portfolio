@@ -1,0 +1,17 @@
+.contact{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+/* Tablet view */
+@media screen and (max-width: 1150px) {
+    
+}
+
+/* mobile view */
+@media screen and (max-width: 650px) {
+
+
+}
