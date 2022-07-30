@@ -3,10 +3,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-}
-
-.App{
-
+  background-image: url('./assets/background_img.png');
+  background-size: contain;
 }
 
 /* Tablet view */
