@@ -50,22 +50,8 @@ nav{
   color: #747374;
 }
 
-
 /* Active class */
 /* LARGE SCREEN VIEW */
-.logo{
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.2em;
-  text-align: left;
-}
-
-nav{
-  width: 70%;
-  margin: 0 auto;
-  padding: 2rem 2rem 0 2rem
-}
 
 .navbar_overlay{
   position: fixed;
@@ -81,12 +67,14 @@ nav{
 .navbar_overlay ul{
   position: fixed;
   top: 10vh;
+  left: 38%;
+  text-align: center;
 }
 
 .navbar_overlay ul li:not(.active){
   font-style: normal;
-  font-weight: 500;
-  font-size: 38px;
+  font-weight: 400;
+  font-size: 50px;
   margin: 2rem 0 1rem 0;
   line-height: 60px;
   list-style-type: none;
@@ -94,7 +82,6 @@ nav{
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
   letter-spacing: 0.05em;
-
   color: #000000;
 }
 
@@ -104,7 +91,7 @@ nav{
   -webkit-text-stroke-color: #000;
   font-style: normal;
   font-weight: lighter;
-  font-size: 38px;
+  font-size: 50px;
   margin: 2rem 0 1rem 0;
   line-height: 60px;
   list-style-type: none;
@@ -117,29 +104,28 @@ nav{
   margin: 10px;
 }
 
+
+.logo{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: left;
+}
+
+nav{
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 2rem 0 2rem
+}
+
+
 /* Tablet view */
 @media screen and (max-width: 1150px) {
-  .logo{
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.2em;
-    text-align: left;
-  }
 
-  .hamburger_menu div {
-    width: 50px;
-    height: 2px;
-    background-color: #505050;
-    margin: 2px 0;
+  .navbar_overlay ul{
+    left: 31%;
   }
-
-  nav{
-    width: 70%;
-    margin: 0 auto;
-    padding: 2rem 2rem 0 2rem
-  }
-
 }
 
 
@@ -148,10 +134,6 @@ nav{
 @media screen and (max-width: 650px) {
   .logo{
     font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.2em;
-    text-align: left;
   }
 
   .hamburger_menu div {
@@ -164,5 +146,25 @@ nav{
   nav{
     width: 80%;
     padding: 2rem 2rem 2rem 2rem
+  }
+
+  .navbar_overlay ul{
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    text-align: left;
+  }
+  
+  .navbar_overlay ul li:not(.active){
+    font-weight: 500;
+    font-size: 38px;
+    letter-spacing: 0.05em;
+  }
+
+  .active{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 38px;
+    margin: 2rem 0 1rem 0;
   }
 }
