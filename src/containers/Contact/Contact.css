@@ -14,7 +14,7 @@
 @media screen and (max-width: 650px) {
     .contact{
         padding-top: 35%;
-        padding-bottom: 35%;
+        padding-bottom: 40%;
     }
     .heading p{
         font-style: normal;
@@ -40,7 +40,7 @@
         margin-top: 0;
         font-style: normal;
         font-weight: 275;
-        font-size: 15px;
+        font-size: 13px;
         line-height: 20px;
 
         color: #000000;

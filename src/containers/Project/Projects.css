@@ -23,6 +23,7 @@
 
     .project_intro p{
         margin-bottom: 1rem;
+        font-size: 15px;
     }
 
     .project1{
@@ -97,7 +98,7 @@
     .need_a_developer p{
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 22px;
         margin-top: 0;
         color: #000000;
