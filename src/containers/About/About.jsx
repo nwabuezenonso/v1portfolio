@@ -14,7 +14,7 @@ const About = () => {
         <p className='AboutBody'>
           I'm Chinonso Nwabueze, A software engineer currently based in Nigeria. Who loves turning ideas from thought to reality. <br/>I specialize in creating functional user interfaces and making the user experience as comfortable as possible.<br/><br/>
           I started my career as a freelance developer where I built project for small business and startups and around that time i started understanding more about frontend developement with React. <br/> Right now i am currently building web apps with Nodejs as a Backend and also exploring the Web3 space.<br/><br/>
-          When I'm not working I'm either watching movie or Anime 🎬, Playing games with my friends 🎮, Chatting 💬, Playing basketball 🏀
+          When I'm not working I'm either watching movie or Anime 🎬, Playing games with my friends 🎮, Chatting 💬 or Playing basketball 🏀.
         </p>
 
         <div className='Technologies'>
