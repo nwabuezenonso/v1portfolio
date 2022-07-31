@@ -137,24 +137,10 @@
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: #000;
         font-size: 60px;
-        line-height: 60px
-    }
-
-    .intro_text a{
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 18px;
     }
 
     #resume {
         margin-right: 5px;
-    }
-
-    .intro_text #resume div{
-        border: 1px solid #000000;
-        width: 65px;
-        height: 0px;
-        margin-bottom: 16px;
     }
 
     .portfolioButton{
@@ -162,7 +148,6 @@
         box-sizing: border-box;
         border-radius: 3px;
         font-size: 16px;
-
         background: #FFFFFF;
         border: 1px solid #848484;
         outline: 1px solid #848484;
