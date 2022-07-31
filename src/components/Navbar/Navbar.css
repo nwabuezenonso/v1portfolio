@@ -50,6 +50,7 @@ nav{
   color: #747374;
 }
 
+
 /* Active class */
 /* LARGE SCREEN VIEW */
 .logo{
@@ -66,6 +67,55 @@ nav{
   padding: 2rem 2rem 0 2rem
 }
 
+.navbar_overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  transition: 0.4s;
+  z-index: 990;
+}
+
+.navbar_overlay ul{
+  position: fixed;
+  top: 10vh;
+}
+
+.navbar_overlay ul li:not(.active){
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  margin: 2rem 0 1rem 0;
+  line-height: 60px;
+  list-style-type: none;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.active{
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 38px;
+  margin: 2rem 0 1rem 0;
+  line-height: 60px;
+  list-style-type: none;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-decoration: line-through;
+}
+
+.navbar_overlay ul li:last-child svg{
+  margin: 10px;
+}
 
 /* Tablet view */
 @media screen and (max-width: 1150px) {
@@ -114,56 +164,5 @@ nav{
   nav{
     width: 80%;
     padding: 2rem 2rem 2rem 2rem
-  }
-
-
-  .navbar_overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: #fff;
-    transition: 0.4s;
-    z-index: 990;
-  }
-
-  .navbar_overlay ul{
-    position: fixed;
-    top: 10vh;
-  }
-  
-  .navbar_overlay ul li:not(.active){
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    margin: 2rem 0 1rem 0;
-    line-height: 60px;
-    list-style-type: none;
-    -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
-    letter-spacing: 0.05em;
-  
-    color: #000000;
-  }
-
-  .active{
-    -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 38px;
-    margin: 2rem 0 1rem 0;
-    line-height: 60px;
-    list-style-type: none;
-    letter-spacing: 0.05em;
-    color: #000000;
-    text-decoration: line-through;
-  }
-
-  .navbar_overlay ul li:last-child svg{
-    margin: 10px;
   }
 }
