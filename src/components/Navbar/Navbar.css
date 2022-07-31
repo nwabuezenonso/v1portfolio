@@ -53,7 +53,7 @@ nav{
 /* Active class */
 /* LARGE SCREEN VIEW */
 .logo{
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.2em;
@@ -62,14 +62,15 @@ nav{
 
 nav{
   width: 70%;
-  padding: 2rem 2rem 0 7rem
+  margin: 0 auto;
+  padding: 2rem 2rem 0 2rem
 }
 
 
 /* Tablet view */
 @media screen and (max-width: 1150px) {
   .logo{
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.2em;
@@ -85,7 +86,8 @@ nav{
 
   nav{
     width: 70%;
-    padding: 2rem 2rem 0 7rem
+    margin: 0 auto;
+    padding: 2rem 2rem 0 2rem
   }
 
 }
