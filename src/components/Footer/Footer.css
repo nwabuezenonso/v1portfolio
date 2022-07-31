@@ -5,12 +5,19 @@
     z-index: 0; */
 }
 
+/* LARGER VIEW */
+    .footer_links{
+        padding: 0 0 1rem 6rem
+    }
+    .footer_links svg{
+        margin: 0 10px 0 10px;
+    }
 
 /* Tablet view */
 @media screen and (max-width: 1150px) {
   
     .footer_links{
-        padding: 0 0 1rem 2rem
+        padding: 0 0 1rem 6rem
     }
     .footer_links svg{
         margin: 0 10px 0 10px;

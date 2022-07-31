@@ -51,6 +51,19 @@ nav{
 }
 
 /* Active class */
+/* LARGE SCREEN VIEW */
+.logo{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: left;
+}
+
+nav{
+  width: 70%;
+  padding: 2rem 2rem 0 7rem
+}
 
 
 /* Tablet view */
