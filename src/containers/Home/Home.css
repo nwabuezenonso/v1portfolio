@@ -116,6 +116,7 @@
     }
 
     .intro_text p:nth-child(1){
+        margin: 0;
         font-size: 19px;
         line-height: 22px;
     }
