@@ -17,7 +17,7 @@
         font-size: 32px;
         line-height: 48px;
         -webkit-text-fill-color: #fff;
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: #000;
     }
 
@@ -98,7 +98,7 @@
     .need_a_developer p{
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 13px;
         line-height: 22px;
         margin-top: 0;
         color: #000000;
