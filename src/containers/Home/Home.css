@@ -15,6 +15,8 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 48px;
+    color: #828182;
+    margin: 3rem 0 0 0;
 }
 
 .intro_text p:nth-child(1) span{
@@ -22,10 +24,10 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 48px;
+    color: #000;
 }
 
 .intro_text p:nth-child(2){
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -36,7 +38,7 @@
     margin-bottom: 2rem;
     margin-top: 1rem;
     -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 3.5px;
     -webkit-text-stroke-color: #000;
     font-style: normal;
     font-weight: 500;
@@ -50,23 +52,11 @@
     line-height: 18px;
 }
 
-#resume {
-    margin-right: 5px;
-}
-
-.intro_text #resume div{
-    border: 1px solid #000000;
-    width: 65px;
-    height: 0px;
-    margin-bottom: 16px;
-}
-
 .portfolioButton{
     padding: 12px 20px 12px 20px;
     box-sizing: border-box;
     border-radius: 3px;
     font-size: 16px;
-
     background: #FFFFFF;
     border: 1px solid #848484;
     outline: 1px solid #848484;
@@ -76,7 +66,7 @@
 /* Tablet view */
 @media screen and (max-width: 1150px) {
     .intro{
-        padding: 2rem 2rem 0 2rem;
+        padding: 5% 15% 5% 15%;
     }
 
     #resume{
@@ -88,22 +78,19 @@
     }
 
     .intro_text p:nth-child(1){
-        font-weight: bold;
-        font-size: 19px;
-        line-height: 22px;
-        color: #000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        color: #828182;
+        margin: 3rem 0 0 0;
     }
 
     .intro_text p:nth-child(1) span{
-        color: #000;
         font-weight: bold;
-        font-size: 20px;
     }
 
     .intro_text p:nth-child(2){
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 24px;
     }
@@ -111,38 +98,14 @@
     .intro_text h1{
         margin: 0;
         -webkit-text-fill-color: #fff;
-        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 3px;
         -webkit-text-stroke-color: #000;
-        font-size: 60px;
+        font-size: 50px;
         line-height: 60px
-    }
-
-    .intro_text a{
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 18px;
     }
 
     #resume {
         margin-right: 5px;
-    }
-
-    .intro_text #resume div{
-        border: 1px solid #000000;
-        width: 65px;
-        height: 0px;
-        margin-bottom: 16px;
-    }
-
-    .portfolioButton{
-        padding: 12px 20px 12px 20px;
-        box-sizing: border-box;
-        border-radius: 3px;
-        font-size: 16px;
-
-        background: #FFFFFF;
-        border: 1px solid #848484;
-        outline: 1px solid #848484;
     }
 }
 
@@ -152,29 +115,16 @@
         padding: 2rem 2rem 0 2rem;
     }
 
-    #resume{
-        margin-bottom: 10px;
-    }
-
-    .intro_text p{
-        font-weight: 400;
-    }
-
     .intro_text p:nth-child(1){
-        font-weight: bold;
         font-size: 19px;
         line-height: 22px;
-        color: #000;
     }
 
     .intro_text p:nth-child(1) span{
-        color: #000;
-        font-weight: bold;
         font-size: 20px;
     }
 
     .intro_text p:nth-child(2){
-        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
