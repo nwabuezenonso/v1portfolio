@@ -151,7 +151,7 @@ nav{
   .navbar_overlay ul{
     position: fixed;
     top: 10vh;
-    left: 18%;
+    left: 15%;
   }
   
   .navbar_overlay ul li:not(.active){
