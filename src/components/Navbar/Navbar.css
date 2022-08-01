@@ -73,9 +73,9 @@ nav{
 
 .navbar_overlay ul li:not(.active){
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 50px;
-  margin: 2rem 0 1rem 0;
+  margin: 1.5rem 0 1rem 0;
   line-height: 60px;
   list-style-type: none;
   -webkit-text-fill-color: #fff;
@@ -92,7 +92,7 @@ nav{
   font-style: normal;
   font-weight: lighter;
   font-size: 50px;
-  margin: 2rem 0 1rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   line-height: 60px;
   list-style-type: none;
   letter-spacing: 0.05em;
@@ -159,12 +159,11 @@ nav{
     font-weight: 500;
     font-size: 38px;
     letter-spacing: 0.05em;
+    margin: 0.5rem 0 0.5rem 0;
   }
 
   .active{
-    font-style: normal;
-    font-weight: lighter;
     font-size: 38px;
-    margin: 2rem 0 1rem 0;
+    margin: 0.5rem 0 0.5rem 0;
   }
 }
