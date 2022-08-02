@@ -7,12 +7,12 @@
 }
 
 .intro_text p{
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .intro_text p:nth-child(1){
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 32px;
     line-height: 48px;
     color: #828182;
@@ -27,11 +27,11 @@
     color: #000;
 }
 
-.intro_text p:nth-child(2){
+.introText_content{
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 19px;
+    line-height: 24px; 
 }
 
 .intro_text h1{
@@ -53,7 +53,7 @@
 }
 
 .portfolioButton{
-    padding: 12px 20px 12px 20px;
+    padding: 0.9rem 2rem;
     box-sizing: border-box;
     border-radius: 3px;
     font-size: 16px;
@@ -90,9 +90,9 @@
         font-weight: bold;
     }
 
-    .intro_text p:nth-child(2){
-        font-size: 16px;
-        line-height: 24px;
+    .introText_content{
+        font-size: 19px;
+        line-height: 24px;     
     }
 
     .intro_text h1{
@@ -125,11 +125,9 @@
         font-size: 20px;
     }
 
-    .intro_text p:nth-child(2){
-        font-style: normal;
-        font-weight: 400;
+    .introText_content{
         font-size: 16px;
-        line-height: 24px;
+        line-height: 24px;     
     }
 
     .intro_text h1{

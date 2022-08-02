@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div></div>
                 <div></div>
                 <div></div>
-                <span>menu</span>
+                {/* <span>menu</span> */}
             </div>
             
             { toggleMenu && (
