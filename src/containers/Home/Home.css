@@ -66,10 +66,6 @@
 
 /* Tablet view */
 @media screen and (max-width: 1150px) {
-    .intro{
-        padding: 5% 15% 5% 15%;
-    }
-
     #resume{
         margin-bottom: 10px;
     }
@@ -79,16 +75,8 @@
     }
 
     .intro_text p:nth-child(1){
-        font-style: normal;
         font-weight: 400;
         font-size: 32px;
-        line-height: 48px;
-        color: #828182;
-        margin: 3rem 0 0 0;
-    }
-
-    .intro_text p:nth-child(1) span{
-        font-weight: bold;
     }
 
     .introText_content{
@@ -98,11 +86,8 @@
 
     .intro_text h1{
         margin: 0;
-        -webkit-text-fill-color: #fff;
         -webkit-text-stroke-width: 3px;
-        -webkit-text-stroke-color: #000;
         font-size: 50px;
-        line-height: 60px
     }
 
     #resume {
