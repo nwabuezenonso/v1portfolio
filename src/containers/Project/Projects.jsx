@@ -72,6 +72,7 @@ const Projects = () => {
         </div>
 
         <ContactDeveloper />
+        <button className='portfolioButton'> Contact Me</button>
       </div>
     </div>
   )

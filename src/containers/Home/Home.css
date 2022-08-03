@@ -30,8 +30,9 @@
 .introText_content{
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 24px; 
+    word-break: break-word;
 }
 
 .intro_text h1{

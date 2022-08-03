@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 650px) {
     .need_a_developer h1{
-        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-width: 1px;
         font-size: 23px;
         line-height: 34px;
     }
