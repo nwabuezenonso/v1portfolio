@@ -4,11 +4,11 @@
 
 .AboutTitle p{
     font-style: normal;
-    margin-top: 0;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;  
+    font-size: 17px;
+    line-height: 26px;
     color: #000000;
+    text-align: center;
 }
 
 
@@ -17,7 +17,9 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000;
     font-size: 44px;
+    font-weight: 500;
     line-height: 15px;
+    text-align: center;
 }
 
 .AboutBody{
@@ -28,7 +30,7 @@
     line-height: 24px;
     color: #000000;
     text-align: left;
-    width: 85vw
+    width: 70vw
 }
 
 .About h1{
