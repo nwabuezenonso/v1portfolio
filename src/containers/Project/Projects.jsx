@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css'
 import { image} from '../../assets';
-import { contactDeveloper } from '../../components';
+import { ContactDeveloper } from '../../components';
 
 const Projects = () => {
   return (
@@ -27,7 +27,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <contactDeveloper />
+        <ContactDeveloper />
       </div>
     </div>
   )

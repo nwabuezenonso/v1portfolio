@@ -14,7 +14,7 @@
 
 .AboutTitle h1{
     -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     font-size: 44px;
     line-height: 15px;
@@ -24,11 +24,12 @@
     margin-top: 20px;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 27px;
     color: #000000;
     text-align: left;
-    width: 65vw
+    /* width: 60vw; */
+    word-break: break-word;
 }
 
 .About h1{
@@ -36,23 +37,23 @@
 }
 
 .Technology_title{
-    margin: 1rem 0 1rem 0;
+    margin: 2rem 0 0 0;
 }
 
 .Technology_title h1, .experience h1{
-    margin-top: 1rem;
+    margin-top: 3rem;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
-    font-size: 23px;
-    line-height: 34px;
+    font-size: 32px;
+    line-height: 48px;
 }
 
 .Technology_title p{
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 27px;
     color: #000000;
 }
 
@@ -65,7 +66,7 @@
 
 .Stack ul li{
     margin: 1rem;
-    flex-basis: 25%;
+    flex-basis: 10%;
     flex-grow: 1;
 }
 
