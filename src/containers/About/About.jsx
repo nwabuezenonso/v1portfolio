@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import { contactDeveloper } from '../../components';
+import { ContactDeveloper } from '../../components';
 
 const About = () => {
 
@@ -42,9 +42,9 @@ const About = () => {
         </div>
 
         <button className='portfolioButton'> View previous projects</button>
+        
 
-
-        <contactDeveloper />
+        <ContactDeveloper />
       </div>
         
 

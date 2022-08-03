@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route} from 'react-router-dom';
-import { Navbar,Footer } from './components';
+import { Navbar,Footer, contactDeveloper } from './components';
 import { Home, About, Projects, Contact } from './containers'
 
 function App() {
