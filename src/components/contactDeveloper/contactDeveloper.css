@@ -1,10 +1,11 @@
 .need_a_developer h1{
-    margin-top: 3rem;
+    margin-top: 2rem !important;
     margin-bottom: 0;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     font-size: 32px;
+    font-weight: 500;
     line-height: 48px;
 }
 
@@ -17,6 +18,13 @@
     color: #000000;
 }
 
+
+
+@media screen and (max-width: 1150px) {
+    .need_a_developer h1{
+        margin-top: 1rem !important;
+    }
+}
 
 @media screen and (max-width: 650px) {
     .need_a_developer h1{

@@ -14,10 +14,11 @@
 
 .AboutTitle h1{
     -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #000;
     font-size: 44px;
     line-height: 15px;
+    font-weight: 500;
 }
 
 .AboutBody{
@@ -28,7 +29,6 @@
     line-height: 27px;
     color: #000000;
     text-align: left;
-    /* width: 60vw; */
     word-break: break-word;
 }
 
@@ -41,13 +41,14 @@
 }
 
 .Technology_title h1, .experience h1{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 0;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     font-size: 32px;
     line-height: 48px;
+    font-weight: 500;
 }
 
 .Technology_title p, .experience p{
@@ -83,7 +84,9 @@
 
 /* Tablet view */
 @media screen and (max-width: 1150px) {
-    
+    .Technology_title h1, .experience h1{
+        margin-top: 0.5rem;
+    }
 }
 
 /* mobile view */
