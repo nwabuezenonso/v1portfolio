@@ -1,0 +1,19 @@
+.need_a_developer h1{
+    font-style: normal;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 48px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+.need_a_developer p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 0;
+    color: #000000;
+}

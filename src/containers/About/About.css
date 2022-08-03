@@ -2,17 +2,13 @@
     padding: 5% 15% 5% 15%;
 }
 
-.AboutTitle{
-    margin: 1rem auto;
-}
-
 .AboutTitle p{
     font-style: normal;
+    margin-top: 0;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 26px;  
     color: #000000;
-    text-align: center;
 }
 
 
@@ -21,21 +17,18 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000;
     font-size: 44px;
-    font-weight: 500;
     line-height: 15px;
-    text-align: center;
 }
 
 .AboutBody{
     margin-top: 20px;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
     color: #000000;
-    text-align: center;
-    /* width: 70vw; */
+    text-align: left;
+    width: 65vw
 }
 
 .About h1{
