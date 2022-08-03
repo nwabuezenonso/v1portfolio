@@ -1,7 +1,79 @@
 .About{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0;
+    padding: 5% 15% 5% 15%;
+}
+
+.AboutTitle p{
+    font-style: normal;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;  
+    color: #000000;
+}
+
+
+.AboutTitle h1{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 44px;
+    line-height: 15px;
+}
+
+.AboutBody{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+    width: 85vw
+}
+
+.About h1{
+    margin: 0;
+}
+
+.Technology_title{
+    margin: 1rem 0 1rem 0;
+}
+
+.Technology_title h1, .experience h1{
+    margin-top: 1rem;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 23px;
+    line-height: 34px;
+}
+
+.Technology_title p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.Stack ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.Stack ul li{
+    margin: 1rem;
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+
+.experience p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
 }
 
 
@@ -12,6 +84,12 @@
 
 /* mobile view */
 @media screen and (max-width: 650px) {
+
+    .About{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0;
+    }
 
     .AboutTitle p{
         font-style: normal;
