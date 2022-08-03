@@ -2,6 +2,10 @@
     padding: 5% 15% 5% 15%;
 }
 
+.AboutTitle{
+    margin: 1rem auto;
+}
+
 .AboutTitle p{
     font-style: normal;
     font-weight: 500;
@@ -26,11 +30,12 @@
     margin-top: 20px;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
     color: #000000;
-    text-align: left;
-    width: 70vw
+    text-align: center;
+    /* width: 70vw; */
 }
 
 .About h1{
