@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <p className='AboutBody'>
           I'm Chinonso Nwabueze, A software engineer currently based in Nigeria. Who loves writing codes, building user friendly interactions, delivering solutions that drives business growth using modern web technology and turning ideas from thoughts to reality. I specialize in creating functional user interfaces and making the user experience as comfortable as possible.<br/><br/>
-          I started my career as a freelance developer where I built project for small business and startups and around that time i started understanding more about frontend developement with React. <br/> Right now i am currently building web apps with Nodejs as a Backend and also exploring the Web3 space.<br/><br/>
+          I started my career as a freelance developer where I built project for small business and startups and around that time i started understanding more about frontend developement with React. Right now i am currently building web apps with Nodejs as a Backend and also exploring the Web3 space.<br/><br/>
           When I'm not working I'm either watching movie or Anime 🎬, Playing games with my friends 🎮, Chatting 💬 or Playing basketball 🏀.
         </p>
 
@@ -37,14 +37,12 @@ const About = () => {
         </div>
 
         <div className='experience'>
-          <h1>Experiences  <span role='img' aria-label='smiley face'>💼</span></h1>
+          <h1>Experiences<span role='img' aria-label='smiley face'>💼</span></h1>
           <p>I have developed problem solving projects in collaboration with developers and clients, ranging from individuals to startups and non-profit organizations. See my <a href='/'>resume</a>  or visit my <a href='/'>LinkedIn profile</a>  for additional information.</p>
-        </div>
-
-        <button className='portfolioButton'> View previous projects</button>
-        
+        </div>        
 
         <ContactDeveloper />
+        <button className='portfolioButton'> View previous projects</button>
       </div>
         
 
