@@ -1,5 +1,6 @@
 import React from 'react';
 import "./About.css";
+import { contactDeveloper } from '../../components';
 
 const About = () => {
 
@@ -43,7 +44,7 @@ const About = () => {
         <button className='portfolioButton'> View previous projects</button>
 
 
-        
+        <contactDeveloper />
       </div>
         
 
