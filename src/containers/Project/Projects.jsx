@@ -49,7 +49,7 @@ const Projects = () => {
     <div>
       <div className='projects'>
         <div className='project_intro'>
-          <h1>My Projects <span role="img" aria-label="project">🤖</span></h1>
+          <h1>My Projects <span role="img" aria-label="project"></span></h1>
           <p>A collection of various projects I've worked on. </p>
         </div>
         <div className='project_section'>
