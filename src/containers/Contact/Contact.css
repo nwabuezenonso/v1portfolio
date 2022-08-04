@@ -41,36 +41,23 @@
 /* mobile view */
 @media screen and (max-width: 650px) {
     .contact{
-        padding-top: 35%;
-        padding-bottom: 40%;
+        padding: 35% 0 40% 0;
     }
+
     .heading p{
-        font-style: normal;
-        font-weight: 400;
         font-size: 15px;
         line-height: 16px;
         color: #737374;
-        margin: 0;
     }
 
     .heading h1{
-        font-style: normal;
-        margin: 0;
-        font-weight: 500;
         font-size: 23px;
         line-height: 48px;
-        -webkit-text-fill-color: #fff;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #000;
     }
 
     .content p{
-        margin-top: 0;
-        font-style: normal;
         font-weight: 275;
         font-size: 13px;
         line-height: 20px;
-
-        color: #000000;
     }
 }
