@@ -17,9 +17,6 @@
     line-height: 48px;
     color: #828182;
     margin: 3rem 0 0 0;
-    transform: translateX(-200%);
-	opacity: 0;
-	animation: slide-in-anim 1s ease-in-out forwards;
 }
 
 .intro_text p:nth-child(1) span{
@@ -36,6 +33,9 @@
     font-size: 16px;
     line-height: 24px; 
     word-break: break-word;
+    transform: translateY(10%);
+	opacity: 0;
+	animation: slide-intro-anim 1.5s ease-in-out forwards;
 }
 
 .intro_text h1{
@@ -54,6 +54,9 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
+    transform: translateY(20%);
+	opacity: 0;
+	animation: slide-intro-anim 1s ease-in-out forwards;
 }
 
 .portfolioButton{
@@ -64,17 +67,16 @@
     background: #FFFFFF;
     border: 1px solid #848484;
     outline: 1px solid #848484;
+    transform: translateY(10%);
+	opacity: 0;
+	animation: slide-intro-anim 1.5s ease-in-out forwards;
 }
 
 
 
-@keyframes slide-in-anim {
+@keyframes slide-intro-anim {
 	0% {
-		transform: translateX(-45%);
-	}
-	75% {
-        opacity: 0;
-		transform: translateX(-52%);
+	    opacity: 0;
 	}
 	100% {
 		opacity: 1;
