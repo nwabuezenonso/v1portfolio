@@ -17,6 +17,9 @@
     line-height: 48px;
     color: #828182;
     margin: 3rem 0 0 0;
+    transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1s ease-in-out forwards;
 }
 
 .intro_text p:nth-child(1) span{
@@ -62,6 +65,24 @@
     border: 1px solid #848484;
     outline: 1px solid #848484;
 }
+
+
+
+@keyframes slide-in-anim {
+	0% {
+		transform: translateX(-45%);
+	}
+	75% {
+        opacity: 0;
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+
+
 
 
 /* Tablet view */
