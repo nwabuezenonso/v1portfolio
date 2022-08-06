@@ -9,6 +9,9 @@
     line-height: 33px;
     color: #737374;
     margin: 0;
+    transform: translateY(10%);
+	opacity: 0;
+	animation: slide-intro-anim 1.2s ease-in-out forwards;
 }
 
 .heading h1{
@@ -20,6 +23,9 @@
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+    transform: translateY(10%);
+	opacity: 0;
+	animation: slide-intro-anim 1.4s ease-in-out forwards;
 }
 
 .content p{
@@ -30,6 +36,9 @@
     line-height: 24px;
     text-align: left;
     color: #000000;
+    transform: translateY(10%);
+	opacity: 0;
+	animation: slide-intro-anim 1.2s ease-in-out forwards;
 }
 
 

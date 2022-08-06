@@ -30,6 +30,9 @@
     flex-basis: 35%;
     flex-grow: 1;
     margin-right: 1rem;
+    transform: translateY(10%);
+	opacity: 0;
+	animation: slide-intro-anim 1.2s ease-in-out forwards;
 }
 
 .project1 img{
