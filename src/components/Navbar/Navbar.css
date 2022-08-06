@@ -62,9 +62,22 @@ nav{
   height: 100vh;
   width: 100vw;
   background-color: #fff;
-  transition: 0.4s;
   z-index: 990;
+  transform: translateY(5%);
+  animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
 
 .navbar_overlay ul{
   position: fixed;
@@ -129,8 +142,6 @@ nav{
     left: 31%;
   }
 }
-
-
 
 /* mobile view */
 @media screen and (max-width: 650px) {
