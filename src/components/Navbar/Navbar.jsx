@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -25,7 +26,9 @@ const Navbar = () => {
             { toggleMenu && (
                 <div className='navbar_overlay'>
                     <ul>
-                        <li className='active'>Home</li>
+
+                        <NavLink>Home</NavLink>
+                        <li className='active'></li>
                         <li>About</li>
                         <li>Projects</li>
                         <li>Resume</li>
