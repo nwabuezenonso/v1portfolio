@@ -68,8 +68,6 @@
 	animation: slide-intro-anim 1.4s ease-in-out forwards;
 }
 
-
-
 @keyframes slide-intro-anim {
 	0% {
 	    opacity: 0;
