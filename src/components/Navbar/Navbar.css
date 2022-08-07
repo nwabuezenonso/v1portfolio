@@ -79,25 +79,28 @@ nav{
 }
 
 
-.navbar_overlay ul{
+.navbar_overlay .navbar_section{
   position: fixed;
   top: 10vh;
-  left: 39%;
+  left: 42%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.navbar_overlay ul li:not(.active){
+.links:not(.active){
   font-style: normal;
   font-weight: 500;
-  font-size: 50px;
-  margin: 1.5rem 0 1rem 0;
-  line-height: 60px;
+  font-size: 40px;
+  margin: 1rem 0 1rem 0;
+  line-height: 50px;
   list-style-type: none;
   -webkit-text-fill-color: #fff;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
   letter-spacing: 0.05em;
   color: #000000;
+  text-decoration: none;
 }
 
 .active{
@@ -106,16 +109,16 @@ nav{
   -webkit-text-stroke-color: #000;
   font-style: normal;
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 40px;
   margin: 1.5rem 0 1.5rem 0;
-  line-height: 60px;
+  line-height: 50px;
   list-style-type: none;
   letter-spacing: 0.05em;
   color: #000000;
   text-decoration: line-through;
 }
 
-.navbar_overlay ul li:last-child svg{
+.navbar_overlay svg{
   margin: 10px;
 }
 

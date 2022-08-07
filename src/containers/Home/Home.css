@@ -6,10 +6,6 @@
     margin-bottom: 1rem;
 }
 
-/* .intro_text p{
-    font-weight: 500;
-} */
-
 .intro_text p:nth-child(1){
     font-style: normal;
     font-weight: 500;
