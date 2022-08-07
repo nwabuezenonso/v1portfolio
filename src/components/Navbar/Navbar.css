@@ -141,7 +141,7 @@ nav{
 /* Tablet view */
 @media screen and (max-width: 1150px) {
 
-  .navbar_overlay ul{
+  .navbar_overlay .navbar_section{
     left: 31%;
   }
 }
@@ -164,13 +164,13 @@ nav{
     padding: 2rem 2rem 2rem 2rem
   }
 
-  .navbar_overlay ul{
+  .navbar_overlay .navbar_section{
     position: fixed;
     top: 10vh;
     left: 14%;
   }
   
-  .navbar_overlay ul li:not(.active){
+  .links:not(.active){
     font-weight: 500;
     font-size: 38px;
     letter-spacing: 0.05em;
