@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -13,14 +13,13 @@ const Navbar = () => {
 
         <nav>
             <div className="logo">
-                CHINONSO
+                <Link className='logolink' to="/">CHINONSO</Link>
             </div>
 
             <div className={`hamburger_menu ${toggleMenu ? "change" : ""}`} onClick={handleToggleMenu}>
                 <div></div>
                 <div></div>
                 <div></div>
-                {/* <span>menu</span> */}
             </div>
             
             { toggleMenu && (

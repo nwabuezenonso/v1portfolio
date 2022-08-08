@@ -15,9 +15,10 @@ nav{
 .hamburger_menu div {
   width: 35px;
   height: 2px;
-  background-color: #505050;
+  background-color: #000;
   margin: 2px 0;
   transition: 0.4s;
+  cursor: pointer;
 }
 /* hamburger menu changes on click*/
 .change.hamburger_menu div:nth-child(1){
@@ -48,8 +49,9 @@ nav{
 
 .hamburger_menu span{
   margin: 0;
+  z-index: 2000;
   font-size: 10px;
-  color: #747374;
+  color: #000;
 }
 
 /* Active class */
@@ -137,6 +139,11 @@ nav{
   line-height: 24px;
   letter-spacing: 0.2em;
   text-align: left;
+}
+
+.logolink{
+  text-decoration: none;
+  color: #000;
 }
 
 nav{
