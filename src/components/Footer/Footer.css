@@ -1,17 +1,10 @@
-.footer{
-    /* position:absolute;
-    left:0;
-    right:0;
-    z-index: 0; */
-}
-
 /* LARGER VIEW */
-    .footer_links{
-        padding: 2rem 2rem 2rem 14%
-    }
-    .footer_links svg{
-        margin: 0 10px 0 10px;
-    }
+.footer_links{
+    padding: 2rem 2rem 2rem 14%
+}
+.footer_links svg{
+    margin: 0 10px 0 10px;
+}
 
 /* Tablet view */
 @media screen and (max-width: 1150px) {
