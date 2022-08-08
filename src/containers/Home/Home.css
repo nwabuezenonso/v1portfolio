@@ -2,10 +2,6 @@
     padding: 5% 15% 5% 15%;
 }
 
-#resume{
-    margin-bottom: 1rem;
-}
-
 .intro_text p:nth-child(1){
     font-style: normal;
     font-weight: 500;
@@ -31,7 +27,7 @@
     word-break: break-word;
     transform: translateY(10%);
 	opacity: 0;
-	animation: slide-intro-anim 1s ease-in-out forwards;
+	animation: slide-intro-anim 0.8s ease-in-out forwards;
 }
 
 .intro_text h1{
@@ -46,16 +42,21 @@
     line-height: 60px;
 }
 
+#resume{
+    margin-bottom: 1rem;
+    transform: translateY(10%);
+	opacity: 0;
+	animation: slide-intro-anim 0.9s ease-in-out forwards;
+}
+
 .intro_text a{
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    transform: translateY(20%);
-	opacity: 0;
-	animation: slide-intro-anim 1.2s ease-in-out forwards;
 }
 
 .portfolioButton{
+    cursor: pointer;
     padding: 0.9rem 2rem;
     box-sizing: border-box;
     border-radius: 3px;
@@ -65,7 +66,7 @@
     outline: 1px solid #848484;
     transform: translateY(10%);
 	opacity: 0;
-	animation: slide-intro-anim 1.4s ease-in-out forwards;
+	animation: slide-intro-anim 1s ease-in-out forwards;
 }
 
 @keyframes slide-intro-anim {

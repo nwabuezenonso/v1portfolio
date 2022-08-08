@@ -11,7 +11,7 @@
     margin: 0;
     transform: translateY(10%);
 	opacity: 0;
-	animation: slide-intro-anim 1.2s ease-in-out forwards;
+	animation: slide-intro-anim 0.8s ease-in-out forwards;
 }
 
 .heading h1{
@@ -25,7 +25,7 @@
     -webkit-text-stroke-color: #000;
     transform: translateY(10%);
 	opacity: 0;
-	animation: slide-intro-anim 1.4s ease-in-out forwards;
+	animation: slide-intro-anim 0.9s ease-in-out forwards;
 }
 
 .content p{
@@ -38,7 +38,7 @@
     color: #000000;
     transform: translateY(10%);
 	opacity: 0;
-	animation: slide-intro-anim 1.2s ease-in-out forwards;
+	animation: slide-intro-anim 1s ease-in-out forwards;
 }
 
 
