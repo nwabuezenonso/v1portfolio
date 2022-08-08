@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='content'>
           <p>You can reach out to me via Email or any of the social media icon below <br/> you can stay in touch with me on Twitter, Github and Linkedin where I post my works.</p>
         </div>
-        <button className='portfolioButton'> Contact Me</button>
+        <Link to="about"><button className='portfolioButton'>Contact Me</button></Link>
       </div>
     </div>
   )

@@ -42,7 +42,7 @@ const About = () => {
         </div>        
 
         <ContactDeveloper />
-        <button className='portfolioButton'> View previous projects</button>
+        <Link to="about"><button className='portfolioButton'>View Previous Projects</button></Link>
       </div>
         
 
