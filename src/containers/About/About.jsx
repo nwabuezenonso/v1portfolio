@@ -43,7 +43,7 @@ const About = () => {
         </div>        
 
         <ContactDeveloper />
-        <Link to="about"><button className='portfolioButton'>View Previous Projects</button></Link>
+        <Link to="/projects"><button className='portfolioButton'>View Previous Projects</button></Link>
       </div>
         
 

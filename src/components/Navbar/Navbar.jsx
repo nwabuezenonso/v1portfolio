@@ -10,7 +10,6 @@ const Navbar = () => {
     }
 
     return (
-
         <nav>
             <div className="logo">
                 <Link className='logolink' to="/">CHINONSO</Link>
@@ -40,7 +39,6 @@ const Navbar = () => {
                     </div>
                 </div>
             )}
-           
         </nav>
     )
 }

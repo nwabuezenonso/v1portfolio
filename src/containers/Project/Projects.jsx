@@ -1,5 +1,6 @@
 import React from 'react';
-import './Projects.css'
+import './Projects.css';
+import { Link } from 'react-router-dom';
 import { image} from '../../assets';
 import { ContactDeveloper } from '../../components';
 
@@ -65,14 +66,14 @@ const Projects = () => {
                   <li>HTML</li>
                   <li>CSS</li>
                 </ul>
-                <button>Live preview</button>
+                <Link to="/about"><button className='portfolioButton'>View Previous Projects</button></Link>
               </div>
             </div>
           ))}
         </div>
 
         <ContactDeveloper />
-        <button className='portfolioButton'> Contact Me</button>
+        <Link to="/contact"><button className='portfolioButton'> Contact Me</button></Link>
       </div>
     </div>
   )
