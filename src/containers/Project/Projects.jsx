@@ -22,25 +22,7 @@ const project_details = [
     "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
     "project_tags": ["React", "Node", "HTML"],
     "id": 3
-  },
-  {
-    "project_name": "Voice powered expense tracker",
-    "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
-    "project_tags": ["React", "Node", "HTML"],
-    "id": 4
-  },
-  {
-    "title": "Adding another data",
-    "details": "just adding another set of dta",
-    "category": "work",
-    "id": 5
-  },
-  {
-    "title": "something that i have to do ",
-    "details": "I need to water the plant",
-    "category": "todos",
-    "id": 6
-  },
+  }
 ]
 
 
