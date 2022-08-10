@@ -39,7 +39,7 @@ const About = () => {
 
         <div className='experience'>
           <h1>Experiences</h1>
-          <p>I have developed problem solving projects in collaboration with developers and clients, ranging from individuals to startups and non-profit organizations. See my <a href='/'>resume</a>  or visit my <a href='/'>LinkedIn profile</a>  for additional information.</p>
+          <p>I have developed problem solving projects in collaboration with developers and clients, ranging from individuals to startups and non-profit organizations. See my <a href='/'>resume</a>  or visit my <a href='https://www.linkedin.com/in/chukwunonso-nwabueze/'>LinkedIn profile</a>  for additional information.</p>
         </div>        
 
         <ContactDeveloper />

@@ -6,6 +6,10 @@
     margin: 0 10px 0 10px;
 }
 
+.footer_icon:hover{
+    filter: grayscale(20%) invert(100%)
+}
+
 /* Tablet view */
 @media screen and (max-width: 1150px) {
   
