@@ -106,9 +106,9 @@ nav{
 }
 
 .active{
-  /* -webkit-text-fill-color: #fff; */
-  -webkit-text-stroke-width: 0.4px;
-  /* -webkit-text-stroke-color: #000; */
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
   font-style: normal;
   font-weight: lighter;
   font-size: 50px;
@@ -122,10 +122,6 @@ nav{
 
 .links:hover{
   text-decoration: line-through;
-  -webkit-text-fill-color: #000;
-  -webkit-text-stroke-width: 0.4px;
-  color: #000000;
-  /* -webkit-text-stroke-color: #000; */
 }
 
 .navbar_overlay svg{
