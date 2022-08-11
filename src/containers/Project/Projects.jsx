@@ -9,14 +9,14 @@ const project_details = [
     "project_image" : image,
     "project_name": "Weather App",
     "project_details": "A Platform that provides weather data in any location",
-    "project_tags": "React, CSS, JavaScript",
+    "project_tags": "ReactJS, CSS, JavaScript",
     "id": 1
   },
   {
     "project_image" : image2,
     "project_name": "An website build for a photography brand",
     "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
-    "project_tags": "React, CSS",
+    "project_tags": "ReactJS, CSS",
     "id": 2
   },
   // {
