@@ -1,28 +1,30 @@
 import React from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-import { image} from '../../assets';
+import { image, image2} from '../../assets';
 import { ContactDeveloper } from '../../components';
 
 const project_details = [ 
   {
-    "project_name": "Voice powered expense tracker",
-    "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
-    "project_tags": ["React", "Node", "HTML"],
+    "project_image" : image,
+    "project_name": "Weather App",
+    "project_details": "A Platform that provides weather data in any location",
+    "project_tags": "React, CSS, JavaScript",
     "id": 1
   },
   {
-    "project_name": "Voice powered expense tracker",
+    "project_image" : image2,
+    "project_name": "An website build for a photography brand",
     "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
-    "project_tags": ["React", "Node", "HTML"],
+    "project_tags": "React, CSS",
     "id": 2
   },
-  {
-    "project_name": "Voice powered expense tracker",
-    "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
-    "project_tags": ["React", "Node", "HTML"],
-    "id": 3
-  }
+  // {
+  //   "project_name": "Voice powered expense tracker",
+  //   "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
+  //   "project_tags": ["React", "Node", "HTML"],
+  //   "id": 3
+  // }
 ]
 
 
@@ -38,17 +40,12 @@ const Projects = () => {
         <div className='project_section'>
           {project_details.map((info, index) => (
             <div className='project1'>
-              <img src= { image } alt=""/>
+              <img src= { info.project_image } alt=""/>
               <div className='project_info'>
                 <h1 className='project_title'>{info.project_name}</h1>
                 <p className='project_body'>{info.project_details}</p>
-                <ul className='project_tags'>
-                  <li>React</li>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-                <Link to="/about"><button className='portfolioButton'>View Previous Projects</button></Link>
+                <p className='project_tags'>{info.project_tags}</p>
+                <Link to="/about"><button className='project_btn'>Open site</button></Link>
               </div>
             </div>
           ))}
