@@ -11,7 +11,7 @@ const project_details = [
     "project_details": "Installable and lightweight PWA  that  reads weather forecast",
     "project_tags": "ReactJS, CSS, JavaScript",
     "source": 'https://github.com/nwabuezenonso/weather-app-pwa',
-    "visit": 'https://fascinating-blancmange-fddc43.netlify.app/',
+    "visit": '/https://fascinating-blancmange-fddc43.netlify.app/',
     "id": 1
   },
   {
@@ -20,7 +20,7 @@ const project_details = [
     "project_details": "A photography website. build for a photography brand",
     "project_tags": "ReactJS, CSS",
     "source": 'https://github.com/nwabuezenonso/damanimedia',
-    "visit": 'https://damanimedia.netlify.app/',
+    "visit": '/https://damanimedia.netlify.app/',
     "id": 2
   },
   {
@@ -29,7 +29,7 @@ const project_details = [
     "project_details": "A voice controlled budget tracker app for tracking income and expenses",
     "project_tags": "ReactJS, CSS,  Speechly", 
     "source": 'https://github.com/nwabuezenonso/voice-powered-budget-tracker',
-    "visit": 'https://budget-trackerapp.netlify.app/',
+    "visit": '/https://budget-trackerapp.netlify.app/',
     "id": 3
   },
   {
@@ -38,7 +38,7 @@ const project_details = [
     "project_details": "A messenging platform that allows users to send messages",
     "project_tags": "ReactJS, CSS,  Node, Socket io", 
     "source": 'https://github.com/nwabuezenonso/chat-application',
-    "visit": 'https://62664236be3a43461d7f44f9--the-awesome-chukwunonso-site-d6024.netlify.app/',
+    "visit": '/https://62664236be3a43461d7f44f9--the-awesome-chukwunonso-site-d6024.netlify.app/',
     "id": 4
   },
 
