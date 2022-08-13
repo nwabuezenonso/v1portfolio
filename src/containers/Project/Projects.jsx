@@ -1,30 +1,33 @@
 import React from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-import { image, image2} from '../../assets';
+import { image, image2, image3} from '../../assets';
 import { ContactDeveloper } from '../../components';
 
 const project_details = [ 
   {
     "project_image" : image,
     "project_name": "Weather App",
-    "project_details": "A Platform that provides weather data in any location",
+    "project_details": "Installable and lightweight PWA  that  reads weather forecast",
     "project_tags": "ReactJS, CSS, JavaScript",
     "id": 1
   },
   {
     "project_image" : image2,
     "project_name": "An website build for a photography brand",
-    "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
+    "project_details": "A photography website.",
     "project_tags": "ReactJS, CSS",
     "id": 2
   },
-  // {
-  //   "project_name": "Voice powered expense tracker",
-  //   "project_details": "A simple voice activated budget calculator used to calculate income and expenses.",
-  //   "project_tags": ["React", "Node", "HTML"],
-  //   "id": 3
-  // }
+  {
+    "project_image" : image3,
+    "project_name": "Bugety",
+    "project_details": "A voice controlled budget tracker app for tracking income and expenses",
+    "project_tags": "ReactJS, CSS,  Speechly", 
+    "id": 3
+  },
+
+
 ]
 
 
