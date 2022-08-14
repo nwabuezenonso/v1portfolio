@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink,Link } from 'react-router-dom';
+import { resume } from '../../assets';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -27,7 +28,7 @@ const Navbar = () => {
                         <NavLink className="links" to="/" onClick={() => setToggleMenu(false)}>Home</NavLink>
                         <NavLink className="links" to="about" onClick={() => setToggleMenu(false)}>About</NavLink>
                         <NavLink className="links" to="projects" onClick={() => setToggleMenu(false)}>Projects</NavLink>
-                        <NavLink className="links" to="a" onClick={() => setToggleMenu(false)}>Resume</NavLink>
+                        <a href={resume} className="links" target="_blank" rel='noopener noreferrer' onClick={() => setToggleMenu(false)}>Resume</a>
                         <NavLink className="links" to="contact" onClick={() => setToggleMenu(false)}>Contact</NavLink>
                         <div>
                             <svg href='' width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_97_21)"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.705 0.565308C4.79386 0.565308 0 5.35852 0 11.2716C0 16.0011 3.06731 20.0141 7.32156 21.4304C7.8572 21.5284 8.05241 21.1978 8.05241 20.9139C8.05241 20.6595 8.04309 19.9865 8.0375 19.0933C5.05958 19.74 4.43128 17.658 4.43128 17.658C3.94427 16.421 3.24234 16.0918 3.24234 16.0918C2.27029 15.428 3.31593 15.4411 3.31593 15.4411C4.3905 15.5167 4.95572 16.5446 4.95572 16.5446C5.91068 18.1804 7.46174 17.7079 8.07165 17.4338C8.1689 16.7424 8.44561 16.2705 8.75122 16.003C6.37403 15.7323 3.87457 14.8141 3.87457 10.7117C3.87457 9.54245 4.29193 8.58749 4.97675 7.83891C4.86627 7.56812 4.49894 6.47972 5.08201 5.00555C5.08201 5.00555 5.98043 4.71771 8.02575 6.10251C8.87949 5.86523 9.79567 5.74693 10.7059 5.74233C11.6155 5.74606 12.5311 5.86529 13.3861 6.10251C15.4301 4.71771 16.3272 5.00555 16.3272 5.00555C16.9115 6.47972 16.5441 7.56812 16.4343 7.83891C17.1205 8.58749 17.5345 9.54245 17.5345 10.7117C17.5345 14.8246 15.0312 15.7296 12.6467 15.9944C13.0305 16.325 13.373 16.9784 13.373 17.9774C13.373 19.4081 13.3599 20.5629 13.3599 20.9139C13.3599 21.2004 13.5531 21.5336 14.096 21.4291C18.347 20.0102 21.4117 16.0004 21.4117 11.2716C21.4117 5.35852 16.6178 0.565308 10.7047 0.565308" fill="#737374"/></g><defs><clipPath id="clip0_97_21"><rect width="21.4117" height="21.4117" fill="white" transform="translate(0 0.301605)"/></clipPath></defs></svg>

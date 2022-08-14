@@ -130,6 +130,11 @@
     .project1 img{
         width: 100%;
         height: 350px;
+        filter: brightness(35%);
+    }
+
+    .project_info{
+        opacity: 1;
     }
 
     .project_title{
