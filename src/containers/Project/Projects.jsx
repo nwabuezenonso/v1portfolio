@@ -1,10 +1,28 @@
 import React from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-import { image, image2, image3, image4} from '../../assets';
+import { image, image2, image3, image4, image5  ,image6} from '../../assets';
 import { ContactDeveloper } from '../../components';
 
 const project_details = [ 
+  {
+    title: 'Gericht',
+    description: " A modern UI/UX restaurant website that can be utilized for commercial purposes.",
+    image: image5,
+    tags:  'ReactJs + css',
+    source: 'https://github.com/nwabuezenonso/portfolio-css',
+    visit: 'https://restaurantportfolio.netlify.app/ ',
+    id: 0,
+  },
+  {
+    title: 'Messiahplainfield',
+    description: "a parish website that enable real time baptism and new member online registration",
+    image: image6,
+    tags: 'Node + Mongodb + Ejs + CSS',
+    source: 'https://github.com/nwabuezenonso/plainfield',
+    visit: 'https://www.messiahplainfield.org/',
+    id: 1,
+  },
   {
     "project_image" : image,
     "project_name": "Weather App",
@@ -12,7 +30,7 @@ const project_details = [
     "project_tags": "ReactJS + CSS + JavaScript",
     "source": 'https://github.com/nwabuezenonso/weather-app-pwa',
     "visit": 'https://fascinating-blancmange-fddc43.netlify.app/',
-    "id": 1
+    "id": 2
   },
   {
     "project_image" : image2,
@@ -21,7 +39,7 @@ const project_details = [
     "project_tags": "ReactJS + CSS",
     "source": 'https://github.com/nwabuezenonso/damanimedia',
     "visit": 'https://damanimedia.netlify.app/',
-    "id": 2
+    "id": 3
   },
   {
     "project_image" : image3,
@@ -30,7 +48,7 @@ const project_details = [
     "project_tags": "ReactJS + CSS + Speechly", 
     "source": 'https://github.com/nwabuezenonso/voice-powered-budget-tracker',
     "visit": 'https://budget-trackerapp.netlify.app/',
-    "id": 3
+    "id": 4
   },
   {
     "project_image" : image4,
@@ -39,7 +57,7 @@ const project_details = [
     "project_tags": "ReactJS + CSS + Node + Socket io", 
     "source": 'https://github.com/nwabuezenonso/chat-application',
     "visit": 'https://62664236be3a43461d7f44f9--the-awesome-chukwunonso-site-d6024.netlify.app/',
-    "id": 4
+    "id": 5
   },
 
 ]
