@@ -1,27 +1,27 @@
 import React from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-import { image, image2, image3, image4, image5  ,image6} from '../../assets';
+import { image, image2, image3, image4, image5, image6} from '../../assets';
 import { ContactDeveloper } from '../../components';
 
 const project_details = [ 
   {
-    title: 'Gericht',
-    description: " A modern UI/UX restaurant website that can be utilized for commercial purposes.",
-    image: image5,
-    tags:  'ReactJs + css',
-    source: 'https://github.com/nwabuezenonso/portfolio-css',
-    visit: 'https://restaurantportfolio.netlify.app/ ',
-    id: 0,
+    "project_name" : 'Gericht',
+    "project_details": " A modern UI/UX restaurant website that can be utilized for commercial purposes.",
+    "project_image": image5,
+    "project_tags":  'ReactJs + css',
+    "source": 'https://github.com/nwabuezenonso/portfolio-css',
+    "visit": 'https://restaurantportfolio.netlify.app/ ',
+    "id": 0,
   },
   {
-    title: 'Messiahplainfield',
-    description: "a parish website that enable real time baptism and new member online registration",
-    image: image6,
-    tags: 'Node + Mongodb + Ejs + CSS',
-    source: 'https://github.com/nwabuezenonso/plainfield',
-    visit: 'https://www.messiahplainfield.org/',
-    id: 1,
+    "project_name": 'Messiahplainfield',
+    "project_details": "a parish website that enable real time baptism and new member online registration",
+    "project_image": image6,
+    "project_tags": 'Node + Mongodb + Ejs + CSS',
+    "source": 'https://github.com/nwabuezenonso/plainfield',
+    "visit": 'https://www.messiahplainfield.org/',
+    "id": 1,
   },
   {
     "project_image" : image,
